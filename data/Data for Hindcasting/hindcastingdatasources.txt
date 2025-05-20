@@ -1,0 +1,33 @@
+Data sources for hindcasting:
+
+Opinion:
+
+gallup_importanceofclimatechange - https://news.gallup.com/poll/1615/environment.aspx
+"Is the seriousness of global warming generally exaggerated, generally correct, or generally underestimated?"
+
+
+gallup_usenvpolicyopinion - https://news.gallup.com/poll/1615/environment.aspx
+"Do you think the US government is doing too much, too little or about the right amount in terms of protecting the environment?"
+
+ypcc_sixamericas - https://climatecommunication.yale.edu/about/projects/global-warmings-six-americas/
+Oppose = Dismissive + Doubtful
+Neutral = Disenganged + Cautious
+Support = Concerned + Alarmed
+
+ypcc_sixamericas_timeseries - https://climatecommunication.yale.edu/publications/global-warmings-six-americas-in-2020/
+Citation:
+Leiserowitz, A., Marlon, J., Wang, X., Bergquist, P., Goldberg, M., Kotcher, J., Maibach, E., Rosenthal, S. (2020). Global Warming’s Six Americas in 2020. New Haven, CT: Yale Program on Climate Change Communication. 
+
+
+ypcc_policysupport - https://climatecommunication.yale.edu/visualizations-data/americans-climate-views/
+Fraction supporting "Regulate CO2 as a pollutant"
+
+Pew Data on whether climate change is a threat: https://www.pewresearch.org/wp-content/uploads/2020/10/Climate-blog-topline-for-release-CHECKED.pdf.
+Limited to just countries with data 2013,2016,2017,2018 and 2020: USA, Canada, UK, Germany, Japan, Australia, Italy, France, Spain
+Article: https://www.pewresearch.org/fact-tank/2019/04/18/a-look-at-how-people-around-the-world-view-climate-change/
+
+Emissions:
+From IIASA SSP Database: https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=50
+Historical emissions (2010 - 2015) are van Marle et al (2017) and Hoesly et al (2018)
+Total CO2 emissions
+Assume non-CO2 RF constant at 0.5 Wm-2 between 2010 and 2015
