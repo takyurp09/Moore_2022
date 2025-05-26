@@ -1,0 +1,3 @@
+[submodule "code/src/prior_to_post"]
+	path = code/src/prior_to_post
+	url = https://github.com/takyurp09/prior_to_posterior.git
