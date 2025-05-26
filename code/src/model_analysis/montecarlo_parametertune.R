@@ -10,7 +10,15 @@ library(randomForest)
 library(randomForestExplainer)
 
 
+
+# Create required results folders safely
+dir.create("../results", showWarnings = FALSE, recursive = TRUE)
+dir.create("../results/MC Runs", showWarnings = FALSE, recursive = TRUE)
+dir.create("../results/MC Runs/MC Runs_TunedParams", showWarnings = FALSE, recursive = TRUE)
+
+setwd("../..")
 source("src/model_analysis/model_parametertune.R")
+
 
 #subset of variable to vary - those in the opinion and policy components
 
